@@ -15,17 +15,6 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
-  /*Set default width for images*/
-/*img {
-  width: 300px;
-}*/
-
-  /*.figure-img .img-fluid .rounded {
-max-width: 100%;
-  max-height: auto;
-  width: 200px
-}*/
-
 /*class-level styles*/
 
   /*Modify font for image captions*/
@@ -42,21 +31,16 @@ max-width: 100%;
   background-position: center;
 }
 
-.list-group {
-  list-style: decimal inside;
-  font-size: 20px;
-}
-.list-group-item {
-    display: list-item;
-}
 
-.list-text-desc {
-  list-style: decimal inside;
-  font-size: 14px;
-}
 /*id-level styles*/
 
   /*Override class-level image formatting for the picture in the NavBar*/
 #navpic {
   width: 50px;
 }
+
+  /*Override max size for select larger images*/
+  #largepic {
+    max-width: 60%;
+    max-height: auto;
+  }

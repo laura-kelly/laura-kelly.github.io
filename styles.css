@@ -16,8 +16,13 @@ h1 {
 }
 
   /*Set default width for images*/
-img {
+/*img {
   width: 300px;
+}*/
+
+figure-img img-fluid. {
+  max-width: 100%;
+  max-height: auto
 }
 
 /*class-level styles*/

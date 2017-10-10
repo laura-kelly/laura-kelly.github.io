@@ -30,7 +30,7 @@ img {
 
   /*Assign picture to jumbotron and adjust alignment*/
 .jumbotron {
-  background-image: url(panorama1.JPG);
+  background-image: url(panorama1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

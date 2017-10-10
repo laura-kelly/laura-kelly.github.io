@@ -42,6 +42,18 @@ max-width: 100%;
   background-position: center;
 }
 
+.list-group {
+  list-style: decimal inside;
+  font-size: 20px;
+}
+.list-group-item {
+    display: list-item;
+}
+
+.list-text-desc {
+  list-style: decimal inside;
+  font-size: 14px;
+}
 /*id-level styles*/
 
   /*Override class-level image formatting for the picture in the NavBar*/

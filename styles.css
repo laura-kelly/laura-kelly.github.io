@@ -1,0 +1,44 @@
+
+/*element-level styles*/
+
+  /*Set default font - this will be overridden add certain more specific levels*/
+body {
+  font-family: serif;
+}
+
+  /*Format main headings*/
+h1 {
+  font-family: 'Ribeye Marrow', cursive;
+  color: #68636b;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+  /*Set default width for images*/
+img {
+  width: 300px;
+}
+
+/*class-level styles*/
+
+  /*Modify font for image captions*/
+.figure-caption {
+  color: black;
+  font-size: 12px;
+}
+
+  /*Assign picture to jumbotron and adjust alignment*/
+.jumbotron {
+  background-image: url(panorama1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*id-level styles*/
+
+  /*Override class-level image formatting for the picture in the NavBar*/
+#navpic {
+  width: 50px;
+}

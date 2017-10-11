@@ -31,6 +31,20 @@ h1 {
   background-position: center;
 }
 
+  /*Format lists on the Other Resources page*/
+.list-group-item {
+  border: none;
+  background: none;
+}
+
+.linkbl {
+  color: black;
+}
+
+.linkbl:hover {
+  color: black;
+}
+
 
 /*id-level styles*/
 
@@ -40,7 +54,23 @@ h1 {
 }
 
   /*Override max size for select larger images*/
-  #largepic {
-    max-width: 60%;
-    max-height: auto;
-  }
+#largepic {
+  max-width: 60%;
+  max-height: auto;
+}
+
+  /*Add vertical divider lines between columns on the Other Resources page, and add French flag background colors*/
+#col1 {
+  background-color: #5454f3;
+}
+
+#col2 {
+  padding-right:20px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background-color: #f7f3f3;
+}
+
+#col3 {
+  background-color: #f35858;
+}

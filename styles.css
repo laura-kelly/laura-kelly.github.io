@@ -1,12 +1,14 @@
 
+/**********************/
 /*element-level styles*/
+/**********************/
 
-  /*Set default font - this will be overridden add certain more specific levels*/
+  /*Set default font - this will be overridden at certain more specific levels*/
 body {
   font-family: serif;
 }
 
-  /*Format main headings*/
+  /*Format main headings; use font from google fonts*/
 h1 {
   font-family: 'Ribeye Marrow', cursive;
   color: #68636b;
@@ -15,15 +17,17 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
+/********************/
 /*class-level styles*/
+/********************/
 
-  /*Modify font for image captions*/
+  /*Modify font for image captions (override bootstrap style)*/
 .figure-caption {
   color: black;
   font-size: 12px;
 }
 
-  /*Assign picture to jumbotron and adjust alignment*/
+  /*Assign picture to jumbotron and adjust alignment (override bootstrap style)*/
 .jumbotron {
   background-image: url(panorama1.jpg);
   background-repeat: no-repeat;
@@ -31,12 +35,15 @@ h1 {
   background-position: center;
 }
 
-  /*Format lists on the Other Resources page*/
+  /*Format lists on the Other Resources page (override bootstrap style)*/
+
+    /*Remove borders*/
 .list-group-item {
   border: none;
   background: none;
 }
 
+    /*Change font color of links on the Other Resources page only to black so they are readable on the blue and red background.*/
 .linkbl {
   color: black;
 }
@@ -45,8 +52,9 @@ h1 {
   color: black;
 }
 
-
+/*****************/
 /*id-level styles*/
+/*****************/
 
   /*Override class-level image formatting for the picture in the NavBar*/
 #navpic {
@@ -59,9 +67,12 @@ h1 {
   max-height: auto;
 }
 
-  /*Add vertical divider lines between columns on the Other Resources page, and add French flag background colors*/
+  /*Add vertical divider lines between columns on the Other Resources page, and add French flag background colors;
+    Also make borders rounded and create gaps between the columns by adding solid white border.*/
 #col1 {
   background-color: #5454f3;
+  border-radius: 10px;
+  border: 5px solid white
 }
 
 #col2 {
@@ -69,8 +80,12 @@ h1 {
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
   background-color: #f7f3f3;
+  border-radius: 10px;
+  border: 5px solid white
 }
 
 #col3 {
   background-color: #f35858;
+  border-radius: 10px;
+  border: 5px solid white
 }

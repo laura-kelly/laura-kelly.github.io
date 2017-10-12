@@ -67,6 +67,16 @@ h1 {
   max-height: auto;
 }
 
+#largepic2 {
+  max-width: 80%;
+  max-height: auto;
+}
+
+#largepic3 {
+  max-width: 80%;
+  max-height: auto;
+}
+
   /*Add vertical divider lines between columns on the Other Resources page, and add French flag background colors;
     Also make borders rounded and create gaps between the columns by adding solid white border.*/
 #col1 {

@@ -28,8 +28,9 @@ h1 {
 }
 
   /*Assign picture to jumbotron and adjust alignment (override bootstrap style)*/
+
 .jumbotron {
-  background-image: url(panorama1.jpg);
+  background-image: url(chocolate2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -58,7 +59,7 @@ h1 {
 
   /*Override class-level image formatting for the picture in the NavBar*/
 #navpic {
-  width: 50px;
+  width: 40px;
 }
 
   /*Override max size for select larger images*/
